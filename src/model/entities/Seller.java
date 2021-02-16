@@ -11,7 +11,7 @@ public class Seller implements Serializable {
 	private String name;
 	private String email;
 	private Date birthDate;
-	private double BaseSalary;
+	private Double BaseSalary;
 	
 	private Department department;
 	
@@ -59,11 +59,11 @@ public class Seller implements Serializable {
 		this.birthDate = birthDate;
 	}
 
-	public double getBaseSalary() {
+	public Double getBaseSalary() {
 		return BaseSalary;
 	}
 
-	public void setBaseSalary(double baseSalary) {
+	public void setBaseSalary(Double baseSalary) {
 		BaseSalary = baseSalary;
 	}
 
